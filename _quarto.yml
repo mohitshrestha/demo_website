@@ -26,6 +26,10 @@ website:
             href: example_codes/example_r_codes.qmd
           - text: Python Analysis
             href: example_codes/example_python_codes.qmd
+          - text: R & Python Analysis in Single Document
+            href: example_codes/example_r_and_python_codes.qmd
+          - text: Jupyter Notebook Example
+            href: example_codes/jupyter_notebook.ipynb
       - text: About
         href: about.qmd
     right:

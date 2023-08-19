@@ -5,6 +5,7 @@ pandas
 # Visualization
 matplotlib
 plotly
+seaborn
       
 # Ipython & Jupyter
 ipython

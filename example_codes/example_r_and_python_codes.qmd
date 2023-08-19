@@ -1,7 +1,5 @@
 ---
-title: "Example of R codes"
-engine: knitr
-knitr: true
+title: "Example of working with R and Python codes using {Reticulate} package"
 ---
 
 Below is an example to illustrate how to include executable code.
@@ -34,6 +32,50 @@ y2 <- c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)
 
 plot(x1, y1, main="Observation of Cars", xlab="Car age", ylab="Car speed", col="red", cex=2)
 points(x2, y2, col="blue", cex=2)
+```
+
+**Python Code:**
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| output: false
+#| code-fold: show
+
+library(reticulate)
+reticulate::use_python(python = "C://Users//mohit//anaconda3//envs//quarto_demo_website_py_env//python.exe")
+```
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+x = 5
+y = 3
+
+print(x + y)
+```
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+print(df) 
 ```
 
 Add/Edit more contents [as you wish!]{.underline}

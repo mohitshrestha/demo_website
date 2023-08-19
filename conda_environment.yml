@@ -39,6 +39,7 @@ dependencies:
 
       # Visualization
       - matplotlib
+      - seaborn
       - plotly
       
       # Jupyter
