@@ -42,11 +42,11 @@ jobs:
             any::gt
             any::reticulate
 
-      # - name: Manually install other R Packages not in CRAN
-      #   run: |
-      #     install.packages("remotes")
-      #     remotes::install_github("mohitshrestha/automaton")
-      #   shell: Rscript {0}
+      - name: Manually install other R Packages not in CRAN
+        run: |
+          install.packages("remotes")
+          remotes::install_github("mohitshrestha/automaton")
+        shell: Rscript {0}
 
       - name: Setup Python
         uses: actions/setup-python@v4
