@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Recent posts",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nnews\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 11, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/2023-08-11-welcome/index.html",
     "href": "posts/2023-08-11-welcome/index.html",
     "title": "Welcome To My Blog",
@@ -14,18 +7,32 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nReusehttps://creativecommons.org/licenses/by-sa/4.0/CitationBibTeX citation:@online{shrestha2023,\n  author = {Shrestha, Mohit},\n  title = {Welcome {To} {My} {Blog}},\n  date = {2023-08-11},\n  url = {https://mohitshrestha.github.io/posts/2023-08-11-welcome},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nShrestha, Mohit. 2023. “Welcome To My Blog.” August 11,\n2023. https://mohitshrestha.github.io/posts/2023-08-11-welcome."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Demo Website",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Version: 0.0.1\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBelow is an example to illustrate how to include executable code.\nR Code: \n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\nMore Example of working with R codes\nPython Code: \n\n\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\n\n\nMore Example of working with Python codes\nAdd/Edit more contents as you wish!"
+    "text": "Add content about yourself/company that you want to share with the world!\n\n\n\n\n\n\n\nData Scientist Consultant, Feb 2022 - present Data Elevates\nSenior Energy Market Analyst, May 2021 - Dec 2021 Energy Exemplar\nEnergy Market Consultant, Jun 2011 - Sep 2016 ICF\n\n\n\nM.S. in Business Analytics | Sept 2019 - May 2021 Wake Forest University School of Business Winston-Salem, North Carolina, USA\nB.S. in Mathematical Economics and Applied Mathematics | Aug 2007 - May 2011 Hampden-Sydney College Hampden Sydney, Virginia, USA"
   },
   {
-    "objectID": "example_licenses/license_cc-by.html",
-    "href": "example_licenses/license_cc-by.html",
+    "objectID": "about.html#currently-i-am-working-as-a-data-scientist-consultant-at-data-elevates.",
+    "href": "about.html#currently-i-am-working-as-a-data-scientist-consultant-at-data-elevates.",
+    "title": "About",
+    "section": "",
+    "text": "Data Scientist Consultant, Feb 2022 - present Data Elevates\nSenior Energy Market Analyst, May 2021 - Dec 2021 Energy Exemplar\nEnergy Market Consultant, Jun 2011 - Sep 2016 ICF\n\n\n\nM.S. in Business Analytics | Sept 2019 - May 2021 Wake Forest University School of Business Winston-Salem, North Carolina, USA\nB.S. in Mathematical Economics and Applied Mathematics | Aug 2007 - May 2011 Hampden-Sydney College Hampden Sydney, Virginia, USA"
+  },
+  {
+    "objectID": "example_licenses/license_cc-by-nc-nd.html",
+    "href": "example_licenses/license_cc-by-nc-nd.html",
     "title": "License",
     "section": "",
-    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under   CC BY 4.0 (Creative Commons Attribution 4.0 International)\nLicensed under:\n CC BY 4.0 (Creative Commons Attribution 4.0 International)\n\nAttribution 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n\nSee the License Deed"
+    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under     CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)\nLicensed under:\n CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)\n\nAttribution-NonCommercial-NoDerivatives 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to copy and distribute the material in any medium or format in unadapted form and for noncommercial purposes only.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n NC: Only noncommercial use of your work is permitted.\nNoncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.\n ND: No derivatives or adaptations of your work are permitted.\n\nSee the License Deed"
+  },
+  {
+    "objectID": "example_licenses/license_cc-zero.html",
+    "href": "example_licenses/license_cc-zero.html",
+    "title": "License",
+    "section": "",
+    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under   CC0 1.0 (Creative Commons 1.0 Universal)\nLicensed under:\n CC0 1.0 (Creative Commons 1.0 Universal)\n\nCC0 1.0 Universal\nBy marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n CC0: This work has been marked as dedicated to the public domain.\n\nSee the CC0 Deed"
   },
   {
     "objectID": "example_licenses/license_cc-by-nd.html",
@@ -33,20 +40,6 @@
     "title": "License",
     "section": "",
     "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under    CC BY-ND 4.0 (Creative Commons Attribution-NoDerivatives 4.0 International)\nLicensed under:\n CC BY-ND 4.0 (Creative Commons Attribution-NoDerivatives 4.0 International)\n\nAttribution-NoDerivatives 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to copy and distribute the material in any medium or format in unadapted form only, even for commercial purposes.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n ND: No derivatives or adaptations of your work are permitted.\n\nSee the License Deed"
-  },
-  {
-    "objectID": "example_licenses/license_cc-by-nc-sa.html",
-    "href": "example_licenses/license_cc-by-nc-sa.html",
-    "title": "License",
-    "section": "",
-    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under     CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)\nLicensed under:\n CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)\n\nAttribution-NonCommercial-ShareAlike 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. If others modify or adapt the material, they must license the modified material under identical terms.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n NC: Only noncommercial use of your work is permitted.\nNoncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.\n SA: Adaptations must be shared under the same terms.\n\nSee the License Deed"
-  },
-  {
-    "objectID": "example_codes/example_r_codes.html",
-    "href": "example_codes/example_r_codes.html",
-    "title": "Example of R codes",
-    "section": "",
-    "text": "Below is an example to illustrate how to include executable code.\nR Code:\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\nCode\n# day one, the age and speed of 12 cars:\nx1 &lt;- c(5,7,8,7,2,2,9,4,11,12,9,6)\ny1 &lt;- c(99,86,87,88,111,103,87,94,78,77,85,86)\n\n# day two, the age and speed of 15 cars:\nx2 &lt;- c(2,2,8,1,15,8,12,9,7,3,11,4,7,14,12)\ny2 &lt;- c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)\n\nplot(x1, y1, main=\"Observation of Cars\", xlab=\"Car age\", ylab=\"Car speed\", col=\"red\", cex=2)\npoints(x2, y2, col=\"blue\", cex=2)\n\n\n\n\n\nAdd/Edit more contents as you wish!"
   },
   {
     "objectID": "dataviz_portfolio.html",
@@ -91,18 +84,32 @@
     "text": "Citation\n\n\nCode\ncitation(\"palmerpenguins\")\n\n\nTo cite palmerpenguins in publications use:\n\n  Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer\n  Archipelago (Antarctica) penguin data. R package version 0.1.0.\n  https://allisonhorst.github.io/palmerpenguins/. doi:\n  10.5281/zenodo.3960218.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data},\n    author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},\n    year = {2020},\n    note = {R package version 0.1.0},\n    doi = {10.5281/zenodo.3960218},\n    url = {https://allisonhorst.github.io/palmerpenguins/},\n  }"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "example_codes/example_r_codes.html",
+    "href": "example_codes/example_r_codes.html",
+    "title": "Example of R codes",
     "section": "",
-    "text": "Add content about yourself/company that you want to share with the world!\n\n\n\n\n\n\n\nData Scientist Consultant, Feb 2022 - present Data Elevates\nSenior Energy Market Analyst, May 2021 - Dec 2021 Energy Exemplar\nEnergy Market Consultant, Jun 2011 - Sep 2016 ICF\n\n\n\nM.S. in Business Analytics | Sept 2019 - May 2021 Wake Forest University School of Business Winston-Salem, North Carolina, USA\nB.S. in Mathematical Economics and Applied Mathematics | Aug 2007 - May 2011 Hampden-Sydney College Hampden Sydney, Virginia, USA"
+    "text": "Below is an example to illustrate how to include executable code.\nR Code:\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\nCode\n# day one, the age and speed of 12 cars:\nx1 &lt;- c(5,7,8,7,2,2,9,4,11,12,9,6)\ny1 &lt;- c(99,86,87,88,111,103,87,94,78,77,85,86)\n\n# day two, the age and speed of 15 cars:\nx2 &lt;- c(2,2,8,1,15,8,12,9,7,3,11,4,7,14,12)\ny2 &lt;- c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)\n\nplot(x1, y1, main=\"Observation of Cars\", xlab=\"Car age\", ylab=\"Car speed\", col=\"red\", cex=2)\npoints(x2, y2, col=\"blue\", cex=2)\n\n\n\n\n\nAdd/Edit more contents as you wish!"
   },
   {
-    "objectID": "about.html#currently-i-am-working-as-a-data-scientist-consultant-at-data-elevates.",
-    "href": "about.html#currently-i-am-working-as-a-data-scientist-consultant-at-data-elevates.",
-    "title": "About",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Recent posts",
     "section": "",
-    "text": "Data Scientist Consultant, Feb 2022 - present Data Elevates\nSenior Energy Market Analyst, May 2021 - Dec 2021 Energy Exemplar\nEnergy Market Consultant, Jun 2011 - Sep 2016 ICF\n\n\n\nM.S. in Business Analytics | Sept 2019 - May 2021 Wake Forest University School of Business Winston-Salem, North Carolina, USA\nB.S. in Mathematical Economics and Applied Mathematics | Aug 2007 - May 2011 Hampden-Sydney College Hampden Sydney, Virginia, USA"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nnews\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 11, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Demo Website",
+    "section": "",
+    "text": "Demo Website © 2023 by Mohit Shrestha\nLicensed under   CC BY 4.0 (Creative Commons Attribution 4.0 International)\nLicensed under:\n CC BY 4.0 (Creative Commons Attribution 4.0 International)\n\nAttribution 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n\nSee the License Deed"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Demo Website",
+    "section": "",
+    "text": "Version: 0.0.1\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBelow is an example to illustrate how to include executable code.\nR Code: \n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\nMore Example of working with R codes\nPython Code: \n\n\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\n\n\nMore Example of working with Python codes\nAdd/Edit more contents as you wish!"
   },
   {
     "objectID": "example_codes/example_python_codes.html",
@@ -112,11 +119,18 @@
     "text": "Below is an example to illustrate how to include executable code.\nPython Code:\n\n\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\n\n\n\n\nCode\nimport pandas as pd\n\ndata = {\n  \"calories\": [420, 380, 390],\n  \"duration\": [50, 40, 45]\n}\n\n#load data into a DataFrame object:\ndf = pd.DataFrame(data)\n\nprint(df) \n\n\n   calories  duration\n0       420        50\n1       380        40\n2       390        45\n\n\nAdd/Edit more contents as you wish!"
   },
   {
-    "objectID": "example_licenses/license_cc-by-nc-nd.html",
-    "href": "example_licenses/license_cc-by-nc-nd.html",
+    "objectID": "example_licenses/license_cc-by.html",
+    "href": "example_licenses/license_cc-by.html",
     "title": "License",
     "section": "",
-    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under     CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)\nLicensed under:\n CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)\n\nAttribution-NonCommercial-NoDerivatives 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to copy and distribute the material in any medium or format in unadapted form and for noncommercial purposes only.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n NC: Only noncommercial use of your work is permitted.\nNoncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.\n ND: No derivatives or adaptations of your work are permitted.\n\nSee the License Deed"
+    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under   CC BY 4.0 (Creative Commons Attribution 4.0 International)\nLicensed under:\n CC BY 4.0 (Creative Commons Attribution 4.0 International)\n\nAttribution 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n\nSee the License Deed"
+  },
+  {
+    "objectID": "example_licenses/license_cc-by-nc-sa.html",
+    "href": "example_licenses/license_cc-by-nc-sa.html",
+    "title": "License",
+    "section": "",
+    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under     CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)\nLicensed under:\n CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)\n\nAttribution-NonCommercial-ShareAlike 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. If others modify or adapt the material, they must license the modified material under identical terms.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n NC: Only noncommercial use of your work is permitted.\nNoncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.\n SA: Adaptations must be shared under the same terms.\n\nSee the License Deed"
   },
   {
     "objectID": "example_licenses/license_cc-by-nc.html",
@@ -131,20 +145,6 @@
     "title": "License",
     "section": "",
     "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under    CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)\nLicensed under:\n CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)\n\nAttribution-ShareAlike 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes. If others remix, adapt, or build upon the material, they must license the modified material under identical terms.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n SA: Adaptations must be shared under the same terms.\n\nSee the License Deed"
-  },
-  {
-    "objectID": "example_licenses/license_cc-zero.html",
-    "href": "example_licenses/license_cc-zero.html",
-    "title": "License",
-    "section": "",
-    "text": "Demo Website © 2023 by Mohit Shrestha  Licensed under   CC0 1.0 (Creative Commons 1.0 Universal)\nLicensed under:\n CC0 1.0 (Creative Commons 1.0 Universal)\n\nCC0 1.0 Universal\nBy marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n CC0: This work has been marked as dedicated to the public domain.\n\nSee the CC0 Deed"
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "Demo Website © 2023 by Mohit Shrestha\nLicensed under   CC BY 4.0 (Creative Commons Attribution 4.0 International)\nLicensed under:\n CC BY 4.0 (Creative Commons Attribution 4.0 International)\n\nAttribution 4.0 International\nThis license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.\n\n CC: Creative Commons.\n BY: Credit must be given to you, the creator.\n\nSee the License Deed"
   },
   {
     "objectID": "posts/2023-08-14-post-with-code/index.html",

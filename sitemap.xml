@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mohitshrestha.github.io/posts.html</loc>
-    <lastmod>2023-08-19T07:56:42.777Z</lastmod>
-  </url>
-  <url>
     <loc>https://mohitshrestha.github.io/posts/2023-08-11-welcome/index.html</loc>
-    <lastmod>2023-08-19T07:56:40.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/index.html</loc>
-    <lastmod>2023-08-19T07:56:38.259Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by.html</loc>
-    <lastmod>2023-08-19T07:56:36.150Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nd.html</loc>
-    <lastmod>2023-08-19T07:56:34.288Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-sa.html</loc>
-    <lastmod>2023-08-19T07:56:32.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_codes/example_r_codes.html</loc>
-    <lastmod>2023-08-19T07:56:31.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/dataviz_portfolio.html</loc>
-    <lastmod>2023-08-19T07:56:29.590Z</lastmod>
+    <lastmod>2023-08-19T09:29:24.332Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/about.html</loc>
-    <lastmod>2023-08-19T07:56:28.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_codes/example_python_codes.html</loc>
-    <lastmod>2023-08-19T07:56:30.705Z</lastmod>
+    <lastmod>2023-08-19T09:29:22.997Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-nd.html</loc>
-    <lastmod>2023-08-19T07:56:32.276Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc.html</loc>
-    <lastmod>2023-08-19T07:56:33.633Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-sa.html</loc>
-    <lastmod>2023-08-19T07:56:35.286Z</lastmod>
+    <lastmod>2023-08-19T09:29:22.077Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/example_licenses/license_cc-zero.html</loc>
-    <lastmod>2023-08-19T07:56:37.225Z</lastmod>
+    <lastmod>2023-08-19T09:29:21.149Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nd.html</loc>
+    <lastmod>2023-08-19T09:29:20.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/dataviz_portfolio.html</loc>
+    <lastmod>2023-08-19T09:29:19.345Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_codes/example_r_codes.html</loc>
+    <lastmod>2023-08-19T09:29:04.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/posts.html</loc>
+    <lastmod>2023-08-19T09:28:53.709Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/license.html</loc>
-    <lastmod>2023-08-19T07:56:39.013Z</lastmod>
+    <lastmod>2023-08-19T09:28:53.001Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/index.html</loc>
+    <lastmod>2023-08-19T09:28:59.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_codes/example_python_codes.html</loc>
+    <lastmod>2023-08-19T09:29:12.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by.html</loc>
+    <lastmod>2023-08-19T09:29:19.797Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-sa.html</loc>
+    <lastmod>2023-08-19T09:29:20.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc.html</loc>
+    <lastmod>2023-08-19T09:29:21.621Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-sa.html</loc>
+    <lastmod>2023-08-19T09:29:22.529Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/posts/2023-08-14-post-with-code/index.html</loc>
-    <lastmod>2023-08-19T07:56:41.643Z</lastmod>
+    <lastmod>2023-08-19T09:29:23.773Z</lastmod>
   </url>
 </urlset>
