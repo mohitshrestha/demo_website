@@ -47,17 +47,17 @@ jobs:
       #     install.packages("remotes")
       #     remotes::install_github("mohitshrestha/automaton")
       #   shell: Rscript {0}
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11.4'
-          
-      - name: Python Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install jupyter
-          python -m pip install -r requirements.txt
+# 
+#       - name: Setup Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.11.4'
+#           
+#       - name: Python Dependencies
+#         run: |
+#           python -m pip install --upgrade pip
+#           python -m pip install jupyter
+#           python -m pip install -r requirements.txt
 
       - name: Render and Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
