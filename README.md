@@ -1,12 +1,12 @@
 # [Demo Website](https://mohitshrestha.github.io/demo_website)
 
-[Version: 0.0.1]{.underline}
+<u>Version: 0.0.1]</u>
 
 <https://mohitshrestha.github.io/demo_website>
 
 ## Support my work with a coffee
 
-[![Support Me](https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg){alt="ko_fi" width="50"}](https://ko-fi.com/mohitshrestha "https://ko-fi.com/mohitshrestha")<https://ko-fi.com/mohitshrestha>
+[![Support Me](https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg){alt="ko_fi" width="50" height="50"}](https://ko-fi.com/mohitshrestha "https://ko-fi.com/mohitshrestha")<https://ko-fi.com/mohitshrestha>
 
 ## Licenses
 
