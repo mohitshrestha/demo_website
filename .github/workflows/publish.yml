@@ -34,16 +34,14 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Manually Install packages from CRAN
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::tidyverse
-            any::gt
-            any::reticulate
-            any:remotes
-        shell: Rscript {0}
-      
+      # - name: Manually Install packages from CRAN
+      #   uses: r-lib/actions/setup-r-dependencies@v2
+      #   with:
+      #     packages: |
+      #       any::tidyverse
+      #       any::gt
+      #       any::reticulate
+
       # - name: Manually install other R Packages not in CRAN
       #   run: |
       #     install.packages("remotes")
