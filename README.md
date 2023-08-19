@@ -6,7 +6,7 @@
 
 ## Support my work with a coffee
 
-[![Support Me](https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg alt="ko_fi" width="20" height="20")](https://ko-fi.com/mohitshrestha "https://ko-fi.com/mohitshrestha")<https://ko-fi.com/mohitshrestha>
+[![Support Me](https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg, alt="ko_fi", width="20", height="20")](https://ko-fi.com/mohitshrestha "https://ko-fi.com/mohitshrestha")<https://ko-fi.com/mohitshrestha>
 
 ## Licenses
 
