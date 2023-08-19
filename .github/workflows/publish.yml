@@ -41,7 +41,9 @@ jobs:
             any::tidyverse
             any::gt
             any::reticulate
-      # 
+            any:remotes
+        shell: Rscript {0}
+      
       # - name: Manually install other R Packages not in CRAN
       #   run: |
       #     install.packages("remotes")
