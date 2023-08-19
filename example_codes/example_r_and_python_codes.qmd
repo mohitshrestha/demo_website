@@ -44,7 +44,7 @@ points(x2, y2, col="blue", cex=2)
 #| code-fold: show
 
 library(reticulate)
-reticulate::use_python(python = "C://Users//mohit//anaconda3//envs//quarto_demo_website_py_env//python.exe")
+# reticulate::use_python(python = "C://Users//mohit//anaconda3//envs//quarto_demo_website_py_env//python.exe")
 ```
 
 ```{python}
