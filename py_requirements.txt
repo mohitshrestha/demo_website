@@ -1,0 +1,12 @@
+# Core Data
+numpy
+pandas
+
+# Visualization
+matplotlib
+plotly
+      
+# Ipython & Jupyter
+ipython
+jupyter
+jupyter-cache

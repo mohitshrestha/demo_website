@@ -1,0 +1,11 @@
+{
+  "hash": "703b3e5de422b75f49423a428d4a1383",
+  "result": {
+    "markdown": "---\ntitle: Example of Python codes\n---\n\nBelow is an example to illustrate how to include executable code.\n\n**Python Code:**\n\n::: {.cell execution_count=1}\n``` {.python .cell-code code-fold=\"show\"}\nx = 5\ny = 3\n\nprint(x + y)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n8\n```\n:::\n:::\n\n\n::: {.cell execution_count=2}\n``` {.python .cell-code code-fold=\"show\"}\nimport pandas as pd\n\ndata = {\n  \"calories\": [420, 380, 390],\n  \"duration\": [50, 40, 45]\n}\n\n#load data into a DataFrame object:\ndf = pd.DataFrame(data)\n\nprint(df) \n```\n\n::: {.cell-output .cell-output-stdout}\n```\n   calories  duration\n0       420        50\n1       380        40\n2       390        45\n```\n:::\n:::\n\n\nAdd/Edit more contents [as you wish!]{.underline}\n\n",
+    "supporting": [
+      "example_python_codes_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

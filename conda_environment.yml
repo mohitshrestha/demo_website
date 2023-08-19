@@ -1,0 +1,46 @@
+# Environment Setup ----
+
+# 1. Create an empty conda env ----
+#  - Using an environment.yml file with conda
+#  - Important Terminal Commands:
+#     conda env create -f conda_environment.yml
+#
+# Conda Environment Setup Instructions ----
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+# 
+#    conda env create -f conda_environment.yml
+#    conda env update --file conda_environment.yml --prune
+#    conda env export --name quarto_demo_website_py_env > environment.yml
+#    conda env remove --name quarto_demo_website_py_env
+#    conda env list
+
+#   Convert the quarto_demo_website_py_env.yml file to a py_requirements.txt format so we can use Pip Install Requirements methodology shown below
+#   - pip freeze > py_requirements.txt
+#   
+# 2. Pip Install Requirements (Will take 10 minutes or so)
+#   - pip install -r py_requirements.txt
+#   - In the event of any errors: Relax requirements and rerun: 
+#       pip install -r py_requirements.txt
+
+
+name: quarto_demo_website_py_env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.4
+  - pip
+  - pip:
+      # Core Data
+      - numpy
+      - pandas
+
+      # Visualization
+      - matplotlib
+      - plotly
+      
+      # Jupyter
+      - jupyter
+      - jupyter-cache

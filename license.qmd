@@ -1,0 +1,24 @@
+---
+title: "**License**"
+format:
+  html:
+    page-layout: full
+---
+
+[Demo Website](https://mohitshrestha.github.io/demo_website) © 2023 by [Mohit Shrestha](https://mohitshrestha.com.np/)
+
+Licensed under <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> [CC BY 4.0 (Creative Commons Attribution 4.0 International)](https://creativecommons.org/licenses/by/4.0/)
+
+Licensed under:
+
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width="118" height="41"/> [CC BY 4.0 (Creative Commons Attribution 4.0 International)](https://creativecommons.org/licenses/by/4.0/)
+
+#### **Attribution 4.0 International**
+
+This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+
+-   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> **CC:** Creative Commons.
+
+-   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> **BY:** Credit must be given to you, the creator.
+
+[**See the License Deed**](http://creativecommons.org/licenses/by/4.0/)

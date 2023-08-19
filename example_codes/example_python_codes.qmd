@@ -1,0 +1,41 @@
+---
+title: "Example of Python codes"
+jupyter: python3
+---
+
+Below is an example to illustrate how to include executable code.
+
+**Python Code:**
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+x = 5
+y = 3
+
+print(x + y)
+```
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+print(df) 
+```
+
+Add/Edit more contents [as you wish!]{.underline}
