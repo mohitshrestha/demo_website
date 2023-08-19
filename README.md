@@ -1,6 +1,6 @@
 # [Demo Website](https://mohitshrestha.github.io/demo_website)
 
-<u>Version: 0.0.1]</u>
+<u>Version: 0.0.1</u>
 
 <https://mohitshrestha.github.io/demo_website>
 
