@@ -15,13 +15,13 @@
 #    conda env remove --name quarto_demo_website_py_env
 #    conda env list
 
-#   Convert the quarto_demo_website_py_env.yml file to a py_requirements.txt format so we can use Pip Install Requirements methodology shown below
-#   - pip freeze > py_requirements.txt
+#   Convert the quarto_demo_website_py_env.yml file to a requirements.txt format so we can use Pip Install Requirements methodology shown below
+#   - pip freeze > requirements.txt
 #   
 # 2. Pip Install Requirements (Will take 10 minutes or so)
-#   - pip install -r py_requirements.txt
+#   - pip install -r requirements.txt
 #   - In the event of any errors: Relax requirements and rerun: 
-#       pip install -r py_requirements.txt
+#       pip install -r requirements.txt
 
 
 name: quarto_demo_website_py_env
