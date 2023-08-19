@@ -1,10 +1,3 @@
----
-title: "**License**"
-format:
-  html:
-    page-layout: full
----
-
 [Demo Website](https://mohitshrestha.github.io/demo_website) © 2023 by [Mohit Shrestha](https://mohitshrestha.com.np/)
 
 Licensed under <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> [CC BY 4.0 (Creative Commons Attribution 4.0 International)](https://creativecommons.org/licenses/by/4.0/)
