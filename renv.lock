@@ -8,6 +8,11 @@
       }
     ]
   },
+  "Python": {
+    "Version": "3.11.4",
+    "Type": "conda",
+    "Name": "quarto_demo_website_py_env"
+  },
   "Packages": {
     "MASS": {
       "Package": "MASS",
