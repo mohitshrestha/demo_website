@@ -40,7 +40,7 @@ website:
     left: |
       [Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="25"/> [CC BY 4.0 (Creative Commons Attribution 4.0 International)](/license_cc-by.qmd)
     right: |
-      Made with ❤️ and [![](media/quarto.png){fig-alt="Quarto Logo" width="84" height="18"}](https://quarto.org/)<br>
+      Made with ❤️ and [![](/media/quarto.png){fig-alt="Quarto Logo" width="84" height="18"}](https://quarto.org/)<br>
       [View the source at {{< fa brands github >}} GitHub]({{< var website.github_url >}})
   repo-url: https://www.github.com/mohitshrestha/demo_website
   repo-actions: [edit, issue]
