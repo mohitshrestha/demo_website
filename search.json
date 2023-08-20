@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Recent posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nnews\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 11, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nExample of Python codes\n\n\n9 min\n\n\n\npython\n\n\ncode\n\n\nanalysis\n\n\ndataviz\n\n\nvisualization\n\n\n\n\n\n\n\nMohit Shrestha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample of R codes\n\n\n10 min\n\n\n\nr\n\n\ncode\n\n\nanalysis\n\n\ndataviz\n\n\nvisualization\n\n\n\n\n\n\n\nMohit Shrestha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n1 min\n\n\n\nnews\n\n\n\n\n\n\n\nMohit Shrestha\n\n\nAug 11, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "example_licenses/license_cc-by-nc.html",
@@ -46,7 +46,70 @@
     "href": "posts/2023-08-14-post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "renv::use(lockfile = \"renv.lock\")\n\nThis is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nReusehttps://creativecommons.org/licenses/by-sa/4.0/CitationBibTeX citation:@online{shrestha2023,\n  author = {Shrestha, Mohit},\n  title = {Post {With} {Code}},\n  date = {2023-08-14},\n  url = {https://mohitshrestha.github.io/posts/2023-08-14-post-with-code},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nShrestha, Mohit. 2023. “Post With Code.” August 14, 2023.\nhttps://mohitshrestha.github.io/posts/2023-08-14-post-with-code."
+    "text": "# renv::use(lockfile = \"renv.lock\")\n\nThis is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nReusehttps://creativecommons.org/licenses/by-sa/4.0/CitationBibTeX citation:@online{shrestha2023,\n  author = {Shrestha, Mohit},\n  title = {Post {With} {Code}},\n  date = {2023-08-14},\n  url = {https://mohitshrestha.github.io/posts/2023-08-14-post-with-code},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nShrestha, Mohit. 2023. “Post With Code.” August 14, 2023.\nhttps://mohitshrestha.github.io/posts/2023-08-14-post-with-code."
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html",
+    "href": "posts/example_r_codes/index.html",
+    "title": "Example of R codes",
+    "section": "",
+    "text": "Below is an example to illustrate how to include executable code.\nR Code:\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#data-visualizations",
+    "href": "posts/example_r_codes/index.html#data-visualizations",
+    "title": "Example of R codes",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nGenerate Example graphs using the penguins data from palmerpenguins using R and GGPlot2"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#about-the-data",
+    "href": "posts/example_r_codes/index.html#about-the-data",
+    "title": "Example of R codes",
+    "section": "About the data",
+    "text": "About the data\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.\nThe dataset contain data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica."
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#artwork",
+    "href": "posts/example_r_codes/index.html#artwork",
+    "title": "Example of R codes",
+    "section": "Artwork",
+    "text": "Artwork\nYou are invited to use this accompanying artwork when you use or teach with palmerpenguins! Please cite with \"Artwork by @allison_horst\".\n\nMeet the Palmer penguins\n\n\n\n\n\n\n\n\n\n\n\nBill dimensions\nThe culmen is the upper ridge of a bird’s bill. In the simplified penguins data, culmen length and depth are renamed as variables bill_length_mm and bill_depth_mm to be more intuitive.\nFor this penguin data, the culmen (bill) length and depth are measured as shown below (thanks Kristen Gorman for clarifying!):"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#installation",
+    "href": "posts/example_r_codes/index.html#installation",
+    "title": "Example of R codes",
+    "section": "Installation",
+    "text": "Installation\nYou can install the released version of palmerpenguins from CRAN with:\ninstall.packages(\"palmerpenguins\")\nTo install the development version from GitHub use:\ninstall.packages(\"remotes\") \nremotes::install_github(\"allisonhorst/palmerpenguins\")\nOR\nremotes::install_github(\"mohitshrestha/automaton\")\n\n\n\n\n\n\n\n\n\n\n\nCode\n# To install the released version from CRAN use:\n# install.packages(\"ggplot2\")\n# install.packages(\"palmerpenguins\")\n\n# To install the development version from GitHub use:\n# install.packages(\"remotes\")\n# remotes::install_github(\"allisonhorst/palmerpenguins\")\n# remotes::install_github(\"mohitshrestha/automaton\")\n\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nggplot2::theme_set(ggplot2::theme_minimal())"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#dataset-penguins-are-fun-to-summarize-and-visualize",
+    "href": "posts/example_r_codes/index.html#dataset-penguins-are-fun-to-summarize-and-visualize",
+    "title": "Example of R codes",
+    "section": "Dataset Penguins are fun to Summarize and Visualize!",
+    "text": "Dataset Penguins are fun to Summarize and Visualize!\n\n\nCode\nlibrary(tidyverse)\nlibrary(gt)\n\npenguins |&gt; \n    count(species) |&gt; \n    gt()\n\n\n\n\n\n\n  \n    \n    \n      species\n      n\n    \n  \n  \n    Adelie\n152\n    Chinstrap\n68\n    Gentoo\n124\n  \n  \n  \n\n\n\n\nCode\npenguins |&gt;\n    summarize(\n        across(where(is.numeric), mean, na.rm = TRUE),\n        .by = c(species)\n    ) |&gt; \n    gt() |&gt; \n    fmt_number(\n        columns = contains(\"mm\") | contains(\"g\")\n    ) |&gt; \n    fmt_integer(\n        columns = contains(\"year\"),\n        sep_mark = \"\"\n    )\n\n\n\n\n\n\n  \n    \n    \n      species\n      bill_length_mm\n      bill_depth_mm\n      flipper_length_mm\n      body_mass_g\n      year\n    \n  \n  \n    Adelie\n38.79\n18.35\n189.95\n3,700.66\n2008\n    Gentoo\n47.50\n14.98\n217.19\n5,076.02\n2008\n    Chinstrap\n48.83\n18.42\n195.82\n3,733.09\n2008"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#generate-visualizations",
+    "href": "posts/example_r_codes/index.html#generate-visualizations",
+    "title": "Example of R codes",
+    "section": "Generate Visualizations",
+    "text": "Generate Visualizations\n\nPenguin body mass versus flipper length\n\n\nCode\nmass_flipper &lt;- ggplot(data = penguins, \n                       aes(x = flipper_length_mm,\n                           y = body_mass_g)) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")\n\nmass_flipper\n\n\n\n\n\n\n\nPenguin flipper length versus bill length\n\n\nCode\nflipper_bill &lt;- ggplot(data = penguins,\n                         aes(x = flipper_length_mm,\n                             y = bill_length_mm)) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Flipper and bill length\",\n       subtitle = \"Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Flipper length (mm)\",\n       y = \"Bill length (mm)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.85, 0.15),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")\n\nflipper_bill\n\n\n\n\n\n\n\nPenguin bill length versus depth\n\n\nCode\nbill_len_dep &lt;- ggplot(data = penguins,\n                         aes(x = bill_length_mm,\n                             y = bill_depth_mm,\n                             group = species)) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  geom_smooth(method = \"lm\", se = FALSE, aes(color = species)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin bill dimensions\",\n       subtitle = \"Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Bill length (mm)\",\n       y = \"Bill depth (mm)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.85, 0.15),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")\n\nbill_len_dep\n\n\n\n\n\n\n\nHistogram: Penguin flipper lengths\n\n\nCode\nflipper_hist &lt;- ggplot(data = penguins, aes(x = flipper_length_mm)) +\n  geom_histogram(aes(fill = species), \n                 alpha = 0.5, \n                 position = \"identity\",\n                 bins = 30) +\n  scale_fill_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(x = \"Flipper length (mm)\",\n       y = \"Frequency\",\n       title = \"Penguin flipper lengths\")\n\nflipper_hist\n\n\n\n\n\n\n\nBoxPlot & Jitter: Penguin flipper lengths\n\n\nCode\nflipper_box &lt;- ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +\n  geom_boxplot(aes(color = species), width = 0.3, show.legend = FALSE) +\n  geom_jitter(aes(color = species), alpha = 0.5, show.legend = FALSE, position = position_jitter(width = 0.2, seed = 0)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(x = \"Species\",\n       y = \"Flipper length (mm)\",\n       title = \"Penguin flipper lengths\")\n\nflipper_box\n\n\n\n\n\n\n\nHistogram: Penguin Body mass\n\n\nCode\nmass_hist &lt;- ggplot(data = penguins, aes(x = body_mass_g)) +\n  geom_histogram(aes(fill = species), \n                 alpha = 0.5, \n                 position = \"identity\") +\n  scale_fill_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(x = \"Body mass (g)\",\n       y = \"Frequency\",\n       title = \"Penguin body mass\")\n\nmass_hist\n\n\n\n\n\n\n\nScatterplot: Penguin flipper and body mass by sex\n\n\nCode\nflipper_length_body_mass &lt;- ggplot(penguins, aes(x = flipper_length_mm,\n                                                 y = body_mass_g)) +\n    geom_point(aes(color = sex)) +\n    scale_color_manual(values = c(\"darkorange\",\"cyan4\"), na.translate = FALSE) +\n    labs(title = \"Penguin flipper and body mass\",\n         subtitle = \"Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n         x = \"Flipper length (mm)\",\n         y = \"Body mass (g)\",\n         color = \"Penguin sex\") +\n    theme(legend.position = \"bottom\",\n          plot.title.position = \"plot\",\n          plot.caption = element_text(hjust = 0, face= \"italic\"),\n          plot.caption.position = \"plot\") +\n    facet_wrap(~species)\n\nflipper_length_body_mass"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#interactive-visualization",
+    "href": "posts/example_r_codes/index.html#interactive-visualization",
+    "title": "Example of R codes",
+    "section": "Interactive Visualization",
+    "text": "Interactive Visualization\n\nPlotly: Scatterplot Penguin flipper and body mass by sex\n\n\nCode\nlibrary(plotly)\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nggplot2::theme_set(ggplot2::theme_minimal())\n\nflipper_length_body_mass &lt;- ggplot(penguins, aes(x = flipper_length_mm,\n                                                 y = body_mass_g)) +\n    geom_point(aes(color = sex)) +\n    scale_color_manual(values = c(\"darkorange\",\"cyan4\"), na.translate = FALSE) +\n    labs(title = \"Penguin flipper and body mass\",\n         subtitle = \"Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n         x = \"Flipper length (mm)\",\n         y = \"Body mass (g)\",\n         color = \"Penguin sex\") +\n    theme(legend.position = \"bottom\",\n          plot.title.position = \"plot\",\n          plot.caption = element_text(hjust = 0, face= \"italic\"),\n          plot.caption.position = \"plot\") +\n    facet_wrap(~species)\n\nggplotly(flipper_length_body_mass,\n         tooltip = c(\"x\", \"y\", \"color\"))"
+  },
+  {
+    "objectID": "posts/example_r_codes/index.html#citation",
+    "href": "posts/example_r_codes/index.html#citation",
+    "title": "Example of R codes",
+    "section": "Citation",
+    "text": "Citation\n\n\nCode\ncitation(\"palmerpenguins\")\n\n\nTo cite palmerpenguins in publications use:\n\n  Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer\n  Archipelago (Antarctica) penguin data. R package version 0.1.0.\n  https://allisonhorst.github.io/palmerpenguins/. doi:\n  10.5281/zenodo.3960218.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data},\n    author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},\n    year = {2020},\n    note = {R package version 0.1.0},\n    doi = {10.5281/zenodo.3960218},\n    url = {https://allisonhorst.github.io/palmerpenguins/},\n  }"
   },
   {
     "objectID": "index.html",
@@ -60,14 +123,14 @@
     "href": "example_codes/example_python_codes.html",
     "title": "Example of Python codes",
     "section": "",
-    "text": "Below is an example to illustrate how to include executable code.\nPython Code:\n\n\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\n\n\n\n\nCode\nimport pandas as pd\n\ndata = {\n  \"calories\": [420, 380, 390],\n  \"duration\": [50, 40, 45]\n}\n\n#load data into a DataFrame object:\ndf = pd.DataFrame(data)\n\nprint(df) \n\n\n   calories  duration\n0       420        50\n1       380        40\n2       390        45\n\n\nAdd/Edit more contents as you wish!"
+    "text": "Below is an example to illustrate how to include executable code.\nPython Code:\n\n\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\n\n\n\n\nCode\nimport pandas as pd\n\ndata = {\n  \"calories\": [420, 380, 390],\n  \"duration\": [50, 40, 45]\n}\n\n#load data into a DataFrame object:\ndf = pd.DataFrame(data)\n\nprint(df) \n\n\n   calories  duration\n0       420        50\n1       380        40\n2       390        45\n\n\n\n\nCode\nimport pandas as pd\nimport seaborn as sns \nfrom palmerpenguins import load_penguins\nimport plotly.express as px\n\nsns.set_style('whitegrid')\n\npenguins = load_penguins()\n\n\n\n\nCode\ng = sns.boxplot(x = 'island',\n            y ='body_mass_g',\n            hue = 'species',\n            data = penguins,\n            palette=['#FF8C00','#159090','#A034F0'],\n            linewidth=0.3)\ng.set_xlabel('Island')\ng.set_ylabel('Body Mass')\n\n\nText(0, 0.5, 'Body Mass')\n\n\n\n\n\n\n\nCode\ng = sns.lmplot(x=\"flipper_length_mm\",\n               y=\"body_mass_g\",\n               hue=\"species\",\n               height=7,\n               data=penguins,\n               palette=['#FF8C00','#159090','#A034F0'])\ng.set_xlabels('Flipper Length')\ng.set_ylabels('Body Mass')\n\n\n\n\n\n\n\nCode\nimport plotly.express as px\n\ndf = penguins\nfig = px.scatter(df, x=\"flipper_length_mm\", y=\"body_mass_g\", color = \"sex\",\n                    facet_col=\"species\")\nfig.show()\n\n\n\n                                                \n\n\nAdd/Edit more contents as you wish!"
   },
   {
     "objectID": "example_codes/example_r_codes.html",
     "href": "example_codes/example_r_codes.html",
     "title": "Example of R codes",
     "section": "",
-    "text": "Below is an example to illustrate how to include executable code.\nR Code:\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\nCode\n# day one, the age and speed of 12 cars:\nx1 &lt;- c(5,7,8,7,2,2,9,4,11,12,9,6)\ny1 &lt;- c(99,86,87,88,111,103,87,94,78,77,85,86)\n\n# day two, the age and speed of 15 cars:\nx2 &lt;- c(2,2,8,1,15,8,12,9,7,3,11,4,7,14,12)\ny2 &lt;- c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)\n\nplot(x1, y1, main=\"Observation of Cars\", xlab=\"Car age\", ylab=\"Car speed\", col=\"red\", cex=2)\npoints(x2, y2, col=\"blue\", cex=2)\n\n\n\n\n\nAdd/Edit more contents as you wish!"
+    "text": "Below is an example to illustrate how to include executable code.\nR Code:\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\nCode\n# day one, the age and speed of 12 cars:\nx1 &lt;- c(5,7,8,7,2,2,9,4,11,12,9,6)\ny1 &lt;- c(99,86,87,88,111,103,87,94,78,77,85,86)\n\n# day two, the age and speed of 15 cars:\nx2 &lt;- c(2,2,8,1,15,8,12,9,7,3,11,4,7,14,12)\ny2 &lt;- c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)\n\nplot(x1, y1, main=\"Observation of Cars\", xlab=\"Car age\", ylab=\"Car speed\", col=\"red\", cex=2)\npoints(x2, y2, col=\"blue\", cex=2)\n\n\n\n\n\n\n\nCode\n# To install the released version from CRAN use:\n# install.packages(\"ggplot2\")\n# install.packages(\"palmerpenguins\")\n\n# To install the development version from GitHub use:\n# install.packages(\"remotes\")\n# remotes::install_github(\"allisonhorst/palmerpenguins\")\n# remotes::install_github(\"mohitshrestha/automaton\")\n\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nggplot2::theme_set(ggplot2::theme_minimal())\n\n\n\n\nCode\nggplot(penguins, aes(x = island, y = body_mass_g)) +\n  geom_boxplot(aes(color = species)) +\n  scale_color_manual(values = c('#FF8C00','#159090','#A034F0'), na.translate = FALSE) +\n  labs(title = \"Penguin Body Mass versus Flipper Length\",\n       subtitle = \"Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\") +\n  theme(legend.position = \"bottom\",\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\") +\n    facet_wrap(~sex)\n\n\n\n\n\n\n\nCode\nggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species)) +\n  geom_smooth(method=\"auto\", se=TRUE, fullrange=FALSE, level=0.95) +\n  scale_color_manual(values = c('#FF8C00','#159090','#A034F0'), na.translate = FALSE) +\n  labs(title = \"Penguin Body Mass versus Body Mass\",\n       subtitle = \"Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\") +\n  theme(legend.position = \"bottom\",\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")\n\n\n\n\n\n\n\nCode\nlibrary(plotly)\n\np &lt;- ggplot(penguins, aes(x = flipper_length_mm,\n                            y = body_mass_g)) +\n  geom_point(aes(color = sex)) +\n  scale_color_manual(values = c(\"darkorange\",\"cyan4\"), na.translate = FALSE) +\n  labs(title = \"Penguin Body Mass versus Flipper Length\",\n       subtitle = \"Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin sex\") +\n  theme(legend.position = \"bottom\",\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\") +\n  facet_wrap(~species)\n\nggplotly(p)\n\n\n\n\n\n\nAdd/Edit more contents as you wish!"
   },
   {
     "objectID": "dataviz_portfolio.html",
@@ -110,6 +173,69 @@
     "title": "Sample DataViz Portfolio",
     "section": "Citation",
     "text": "Citation\n\n\nCode\ncitation(\"palmerpenguins\")\n\n\nTo cite palmerpenguins in publications use:\n\n  Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer\n  Archipelago (Antarctica) penguin data. R package version 0.1.0.\n  https://allisonhorst.github.io/palmerpenguins/. doi:\n  10.5281/zenodo.3960218.\n\nA BibTeX entry for LaTeX users is\n\n  @Manual{,\n    title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data},\n    author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},\n    year = {2020},\n    note = {R package version 0.1.0},\n    doi = {10.5281/zenodo.3960218},\n    url = {https://allisonhorst.github.io/palmerpenguins/},\n  }"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html",
+    "href": "posts/example_python_codes/index.html",
+    "title": "Example of Python codes",
+    "section": "",
+    "text": "Below is an example to illustrate how to include executable code.\nPython Code:\nCode\nx = 5\ny = 3\n\nprint(x + y)\n\n\n8\nCode\nimport pandas as pd\n\ndata = {\n  'calories': [420, 380, 390],\n  'duration': [50, 40, 45]\n}\n\n#load data into a DataFrame object:\ndf = pd.DataFrame(data)\n\nprint(df) \n\n\n   calories  duration\n0       420        50\n1       380        40\n2       390        45"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#data-visualizations",
+    "href": "posts/example_python_codes/index.html#data-visualizations",
+    "title": "Example of Python codes",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nGenerate Example graphs using the penguins data from palmerpenguins using Python, Seaborn and Matplotlib"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#about-the-data",
+    "href": "posts/example_python_codes/index.html#about-the-data",
+    "title": "Example of Python codes",
+    "section": "About the data",
+    "text": "About the data\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.\nThe dataset contain data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica."
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#artwork",
+    "href": "posts/example_python_codes/index.html#artwork",
+    "title": "Example of Python codes",
+    "section": "Artwork",
+    "text": "Artwork\nYou are invited to use this accompanying artwork when you use or teach with palmerpenguins! Please cite with \"Artwork by @allison_horst\".\n\nMeet the Palmer penguins\n\n\n\n\n\n\n\nBill dimensions\nThe culmen is the upper ridge of a bird’s bill. In the simplified penguins data, culmen length and depth are renamed as variables bill_length_mm and bill_depth_mm to be more intuitive.\nFor this penguin data, the culmen (bill) length and depth are measured as shown below (thanks Kristen Gorman for clarifying!):"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#installation",
+    "href": "posts/example_python_codes/index.html#installation",
+    "title": "Example of Python codes",
+    "section": "Installation",
+    "text": "Installation\nYou can install the released version of palmerpenguins from PyPi with:\npip install palmerpenguins\nTo install the development version from GitHub use:\npip install git+https://github.com/mcnakhaee/palmerpenguins.git\n\n\n\n\n\n\n\nCode\n# To install the released version from PyPi use:\n# pip install pandas\n# pip install seaborn\n# pip install matplotlib\n# pip install palmerpenguins\n# pip install plotly\n\n# To install the development version from GitHub use:\n# pip install git+https://github.com/mcnakhaee/palmerpenguins.git\n\nimport pandas as pd\nimport numpy as np\nfrom palmerpenguins import load_penguins\nimport seaborn as sns \nimport matplotlib.pyplot as plt\n\npenguins = load_penguins()\n\nsns.set_style('whitegrid')"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#dataset-penguins-are-fun-to-summarize-and-visualize",
+    "href": "posts/example_python_codes/index.html#dataset-penguins-are-fun-to-summarize-and-visualize",
+    "title": "Example of Python codes",
+    "section": "Dataset Penguins are fun to Summarize and Visualize!",
+    "text": "Dataset Penguins are fun to Summarize and Visualize!\n\n\nCode\ndf = penguins.groupby(['species'])['island'].count()\ndf = pd.DataFrame(df)\ndf\n\n\n\n\n\n\n\n\n\nisland\n\n\nspecies\n\n\n\n\n\nAdelie\n152\n\n\nChinstrap\n68\n\n\nGentoo\n124\n\n\n\n\n\n\n\n\n\nCode\ndf = penguins.groupby('species').mean(numeric_only=True)\ntemp_df_left = df.loc[:, df.columns != 'year'].round(2)\ntemp_df_right = df['year'].round()\n\ndf = temp_df_left.merge(temp_df_right, left_on = 'species', right_on = 'species')\ndf\n\n\n\n\n\n\n\n\n\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nyear\n\n\nspecies\n\n\n\n\n\n\n\n\n\nAdelie\n38.79\n18.35\n189.95\n3700.66\n2008.0\n\n\nChinstrap\n48.83\n18.42\n195.82\n3733.09\n2008.0\n\n\nGentoo\n47.50\n14.98\n217.19\n5076.02\n2008.0"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#generate-visualizations",
+    "href": "posts/example_python_codes/index.html#generate-visualizations",
+    "title": "Example of Python codes",
+    "section": "Generate Visualizations",
+    "text": "Generate Visualizations\n\nPenguin body mass versus flipper length\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\nmarker_list = ['o' , 's', '^']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\np = sns.scatterplot(data = df,\n           x = 'flipper_length_mm', \n           y = 'body_mass_g',\n           hue = 'species', \n           style = 'species',\n           markers = marker_list\n           )\n\n# Customize the axes and title\np.set_title('Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins')\np.set_xlabel('Flipper length (mm)')\np.set_ylabel('Body mass (g)')\n\nplt.suptitle('Penguin size, Palmer Station LTER')\nplt.show()\n\n\n\n\n\n\n\nPenguin flipper length versus bill length\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\nmarker_list = ['o' , 's', '^']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\np = sns.scatterplot(data = df,\n           x = 'flipper_length_mm', \n           y = 'bill_length_mm',\n           hue = 'species', \n           style = 'species',\n           markers = marker_list\n           )\n\n# Customize the axes and title\np.set_title('Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER')\np.set_xlabel('Flipper length (mm)')\np.set_ylabel('Bill length (mm)')\n\nplt.suptitle('Flipper and bill length')\nplt.show()\n\n\n\n\n\n\n\nPenguin bill length versus depth\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\nmarker_list = ['o' , 's', '^']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\np = sns.lmplot(data = df,\n           x = 'bill_length_mm', \n           y = 'bill_depth_mm',\n           hue = 'species', \n           markers = marker_list\n           )\n\n# Customize the axes and title\nplt.title('Penguin bill dimensions')\nplt.xlabel('Bill length (mm)')\nplt.ylabel('Bill depth (mm)')\n\nplt.suptitle('Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER')\nplt.show()\n\n\n\n\n\n\n\nHistogram: Penguin flipper lengths\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\nsns.histplot(data = df,\n             x = 'flipper_length_mm', \n             hue = 'species',\n             bins = 30\n             )\n\nplt.title('Penguin flipper lengths')\nplt.xlabel('Flipper length (mm)')\nplt.ylabel('Frequency')\n\nplt.show()\n\n\n\n\n\n\n\nBoxPlot & Jitter: Penguin flipper lengths\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\n# Usual boxplot\np = sns.boxplot(data = df,\n                x = 'species',\n                y = 'flipper_length_mm', \n                hue = 'species'\n                )\np.legend_.remove()\n             \n# Add jitter with the swarmplot function\np = sns.stripplot(data = df,\n                  x = 'species',\n                  y = 'flipper_length_mm', \n                  hue = 'species',\n                  marker = 'o',\n                  alpha = 0.5\n                  )\np.legend_.remove()\n\nplt.title('Penguin flipper lengths')\nplt.xlabel('Species')\nplt.ylabel('Flipper length (mm)')\n\nplt.show()\n\n\n\n\n\n\n\nHistogram: Penguin Body mass\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\nsns.histplot(data = df,\n             x = 'body_mass_g', \n             hue = 'species',\n             bins = 30\n             )\n\nplt.title('Penguin body mass')\nplt.xlabel('Body mass (g)')\nplt.ylabel('Frequency')\n\nplt.show()\n\n\n\n\n\n\n\nScatterplot: Penguin flipper and body mass by sex\n\n\nCode\ndf = penguins\n\n# Create an array with the colors you want to use\ncolors = ['#FF8C00', '#008b8b', '#800080']\n\nmarker_list = ['o' , 's', '^']\n\n# Set your custom color palette\nsns.set_palette(sns.color_palette(colors))\n\np = sns.relplot(data = df,\n           x = 'flipper_length_mm', \n           y = 'body_mass_g',\n           col = \"species\",\n           hue = 'sex', \n           style = 'sex',\n           height = 4, \n           aspect = 0.7,\n           kind=\"scatter\"\n           )\n\n# Customize the axes and title\np.set_axis_labels('Flipper length (mm)', 'Body mass (g)')\nplt.show()"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#interactive-visualization",
+    "href": "posts/example_python_codes/index.html#interactive-visualization",
+    "title": "Example of Python codes",
+    "section": "Interactive Visualization",
+    "text": "Interactive Visualization\n\nPlotly: Scatterplot Penguin flipper and body mass by sex\n\n\nCode\nimport plotly.express as px\n\ndf = penguins\nfig = px.scatter(df, \n                 x=\"flipper_length_mm\", \n                 y=\"body_mass_g\", \n                 color = \"sex\",\n                 facet_col=\"species\")\n\nfig.show()"
+  },
+  {
+    "objectID": "posts/example_python_codes/index.html#citation",
+    "href": "posts/example_python_codes/index.html#citation",
+    "title": "Example of Python codes",
+    "section": "Citation",
+    "text": "Citation\nTo cite palmerpenguins in publications use:\nHorst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.\nA BibTeX entry for LaTeX users is\n@Manual{,\ntitle = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data}, author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman}, year = {2020}, note = {R package version 0.1.0}, doi = {10.5281/zenodo.3960218}, url = {https://allisonhorst.github.io/palmerpenguins/}, }"
   },
   {
     "objectID": "posts/2023-08-11-welcome/index.html",
