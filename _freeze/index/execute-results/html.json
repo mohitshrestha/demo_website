@@ -1,8 +1,10 @@
 {
-  "hash": "abc4a1f4514c9a83be9c0342103606e2",
+  "hash": "d63c9b9ff89758f181e5b4430c6292a6",
   "result": {
-    "markdown": "---\ntitle: \"Demo Website\"\nimage: \"media/profile.png\"\nabout:\n  template: jolla\n  links:\n    - icon: twitter\n      text: Twitter\n      href: https://twitter.com/MohitShrestha\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/MohitShrestha/\n    - icon: github\n      text: Github\n      href: https://github.com/MohitShrestha/\n---\n\n\n[Version: {{< var version >}}]{.underline}\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\nBelow is an example to illustrate how to include executable code.\n\n**R Code:** {{< fab fa-r-project >}}\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"show\"}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\nMore Example of working with [R codes](/example_codes/example_r_codes.qmd)\n\n**Python Code:** {{< fa-brands fa-python >}}\n\n\n::: {.cell}\n\n```{.python .cell-code  code-fold=\"show\"}\nx = 5\ny = 3\n\nprint(x + y)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n8\n```\n:::\n:::\n\n\nMore Example of working with [Python codes](/example_codes/example_python_codes.qmd)\n\nAdd/Edit more contents [as you wish!]{.underline}\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Demo Website\"\nimage: \"media/profile.png\"\nabout:\n  template: jolla\n  links:\n    - icon: twitter\n      text: Twitter\n      href: https://twitter.com/MohitShrestha\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/MohitShrestha/\n    - icon: github\n      text: Github\n      href: https://github.com/MohitShrestha/\n---\n\n\n[Version: {{< var version >}}]{.underline}\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\nBelow is an example to illustrate how to include executable code.\n\n**R Code:** {{< fab fa-r-project >}}\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"show\"}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\nMore Example of working with [R codes](posts/example_r_codes/index.qmd)\n\n**Python Code:** {{< fa-brands fa-python >}}\n\n\n::: {.cell}\n\n```{.python .cell-code  code-fold=\"show\"}\nx = 5\ny = 3\n\nprint(x + y)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n8\n```\n:::\n:::\n\n\nMore Example of working with [Python codes](posts/example_python_codes/index.qmd)\n\nAdd/Edit more contents [as you wish!]{.underline}\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

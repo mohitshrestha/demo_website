@@ -36,4 +36,95 @@ plot(x1, y1, main="Observation of Cars", xlab="Car age", ylab="Car speed", col="
 points(x2, y2, col="blue", cex=2)
 ```
 
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+# To install the released version from CRAN use:
+# install.packages("ggplot2")
+# install.packages("palmerpenguins")
+
+# To install the development version from GitHub use:
+# install.packages("remotes")
+# remotes::install_github("allisonhorst/palmerpenguins")
+# remotes::install_github("mohitshrestha/automaton")
+
+library(ggplot2)
+library(palmerpenguins)
+ggplot2::theme_set(ggplot2::theme_minimal())
+```
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+#| label: "Box Plot: Penguins Body Mass in different Island by Species and Sex"
+
+ggplot(penguins, aes(x = island, y = body_mass_g)) +
+  geom_boxplot(aes(color = species)) +
+  scale_color_manual(values = c('#FF8C00','#159090','#A034F0'), na.translate = FALSE) +
+  labs(title = "Penguin Body Mass versus Flipper Length",
+       subtitle = "Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species") +
+  theme(legend.position = "bottom",
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot") +
+    facet_wrap(~sex)
+```
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+#| label: "Scatter Plot: Penguins Flipper Length vs Body Mass by Species"
+
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species)) +
+  geom_smooth(method="auto", se=TRUE, fullrange=FALSE, level=0.95) +
+  scale_color_manual(values = c('#FF8C00','#159090','#A034F0'), na.translate = FALSE) +
+  labs(title = "Penguin Body Mass versus Body Mass",
+       subtitle = "Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species") +
+  theme(legend.position = "bottom",
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+```
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+#| label: "Plotly: Penguin Body Mass versus Flipper Length"
+
+library(plotly)
+
+p <- ggplot(penguins, aes(x = flipper_length_mm,
+                            y = body_mass_g)) +
+  geom_point(aes(color = sex)) +
+  scale_color_manual(values = c("darkorange","cyan4"), na.translate = FALSE) +
+  labs(title = "Penguin Body Mass versus Flipper Length",
+       subtitle = "Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin sex") +
+  theme(legend.position = "bottom",
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot") +
+  facet_wrap(~species)
+
+ggplotly(p)
+```
+
 Add/Edit more contents [as you wish!]{.underline}

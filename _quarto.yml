@@ -23,13 +23,9 @@ website:
       - text: R and Python Analysis
         menu: 
           - text: R Analysis
-            href: example_codes/example_r_codes.qmd
+            href: posts/example_r_codes/index.qmd
           - text: Python Analysis
-            href: example_codes/example_python_codes.qmd
-          - text: R & Python Analysis in Single Document
-            href: example_codes/example_r_and_python_codes.qmd
-          - text: Jupyter Notebook Example
-            href: example_codes/jupyter_notebook.ipynb
+            href: posts/example_python_codes/index.qmd
       - text: About
         href: about.qmd
     right:

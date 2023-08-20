@@ -11,3 +11,6 @@ seaborn
 ipython
 jupyter
 jupyter-cache
+
+# Datasets
+palmerpenguins

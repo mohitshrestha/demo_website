@@ -34,7 +34,7 @@ Below is an example to illustrate how to include executable code.
 1 + 1
 ```
 
-More Example of working with [R codes](/example_codes/example_r_codes.qmd)
+More Example of working with [R codes](posts/example_r_codes/index.qmd)
 
 **Python Code:** {{< fa-brands fa-python >}}
 
@@ -50,6 +50,6 @@ y = 3
 print(x + y)
 ```
 
-More Example of working with [Python codes](/example_codes/example_python_codes.qmd)
+More Example of working with [Python codes](posts/example_python_codes/index.qmd)
 
 Add/Edit more contents [as you wish!]{.underline}

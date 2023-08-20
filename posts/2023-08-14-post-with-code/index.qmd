@@ -9,7 +9,8 @@ image: "media/image.jpg"
 ```{r}
 #| echo: true
 #| results: 'hide'
-renv::use(lockfile = "renv.lock")
+
+# renv::use(lockfile = "renv.lock")
 ```
 
 This is a post with executable code.

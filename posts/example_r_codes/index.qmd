@@ -1,0 +1,373 @@
+---
+title: "Example of R codes"
+engine: knitr
+knitr: true
+image: media/featured_image.png
+categories: [r, code, analysis, dataviz, visualization]
+---
+
+Below is an example to illustrate how to include executable code.
+
+**R Code:**
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+1 + 1
+```
+
+## Data Visualizations
+
+Generate Example graphs using the penguins data from `palmerpenguins` using `R` and `GGPlot2`
+
+## **About the data**
+
+Data were collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/).
+
+The dataset contain data for **`344 penguins`**. There are **3 different species** of penguins in this dataset, collected from **3 islands** in the [Palmer Archipelago, Antarctica]{.underline}.
+
+## Artwork
+
+You are invited to use this accompanying artwork when you use or teach with palmerpenguins! Please cite with `"Artwork by @allison_horst"`.
+
+### Meet the Palmer penguins
+
+```{r out.width = "75%"}
+#| echo: false
+#| message: false
+#| warning: false
+#| code-fold: true
+#| fig-align: "center"
+
+knitr::include_graphics("media/lter_penguins.png", dpi = 300)
+```
+
+### Bill dimensions
+
+The culmen is the upper ridge of a bird's bill. In the simplified `penguins` data, culmen length and depth are renamed as variables `bill_length_mm` and `bill_depth_mm` to be more intuitive.
+
+For this penguin data, the culmen (bill) length and depth are measured as shown below (thanks `Kristen Gorman` for clarifying!):
+
+```{r out.width = "75%"}
+#| echo: false
+#| message: false
+#| warning: false
+#| code-fold: true
+#| fig-align: "center"
+
+knitr::include_graphics("media/culmen_depth.png", dpi = 300)
+```
+
+## **Installation**
+
+You can install the released version of palmerpenguins from [CRAN](https://cran.r-project.org/) with:
+
+```         
+install.packages("palmerpenguins")
+```
+
+To install the development version from [GitHub](https://github.com/) use:
+
+```         
+install.packages("remotes") 
+remotes::install_github("allisonhorst/palmerpenguins")
+OR
+remotes::install_github("mohitshrestha/automaton")
+```
+
+```{r out.width = "20%"}
+#| echo: false
+#| message: false
+#| warning: false
+#| code-fold: true
+#| fig-align: "center"
+
+knitr::include_graphics("media/palmerpenguins.png", dpi = 300)
+```
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+# To install the released version from CRAN use:
+# install.packages("ggplot2")
+# install.packages("palmerpenguins")
+
+# To install the development version from GitHub use:
+# install.packages("remotes")
+# remotes::install_github("allisonhorst/palmerpenguins")
+# remotes::install_github("mohitshrestha/automaton")
+
+library(ggplot2)
+library(palmerpenguins)
+ggplot2::theme_set(ggplot2::theme_minimal())
+```
+
+## Dataset `Penguins` are fun to Summarize and Visualize!
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+library(tidyverse)
+library(gt)
+
+penguins |> 
+    count(species) |> 
+    gt()
+
+penguins |>
+    summarize(
+        across(where(is.numeric), mean, na.rm = TRUE),
+        .by = c(species)
+    ) |> 
+    gt() |> 
+    fmt_number(
+        columns = contains("mm") | contains("g")
+    ) |> 
+    fmt_integer(
+        columns = contains("year"),
+        sep_mark = ""
+    )
+```
+
+## Generate Visualizations
+
+### Penguin body mass versus flipper length
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin body mass versus flipper length
+
+mass_flipper <- ggplot(data = penguins, 
+                       aes(x = flipper_length_mm,
+                           y = body_mass_g)) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.2, 0.7),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+
+mass_flipper
+```
+
+### Penguin flipper length versus bill length
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin flipper length versus bill length
+
+flipper_bill <- ggplot(data = penguins,
+                         aes(x = flipper_length_mm,
+                             y = bill_length_mm)) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Flipper and bill length",
+       subtitle = "Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+       x = "Flipper length (mm)",
+       y = "Bill length (mm)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.85, 0.15),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+
+flipper_bill
+```
+
+### Penguin bill length versus depth
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin bill length versus depth
+
+bill_len_dep <- ggplot(data = penguins,
+                         aes(x = bill_length_mm,
+                             y = bill_depth_mm,
+                             group = species)) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  geom_smooth(method = "lm", se = FALSE, aes(color = species)) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin bill dimensions",
+       subtitle = "Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+       x = "Bill length (mm)",
+       y = "Bill depth (mm)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.85, 0.15),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+
+bill_len_dep
+```
+
+### Histogram: Penguin flipper lengths
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Histogram Penguin flipper lengths
+
+flipper_hist <- ggplot(data = penguins, aes(x = flipper_length_mm)) +
+  geom_histogram(aes(fill = species), 
+                 alpha = 0.5, 
+                 position = "identity",
+                 bins = 30) +
+  scale_fill_manual(values = c("darkorange","purple","cyan4")) +
+  labs(x = "Flipper length (mm)",
+       y = "Frequency",
+       title = "Penguin flipper lengths")
+
+flipper_hist
+```
+
+### BoxPlot & Jitter: Penguin flipper lengths
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: BoxPlot & Jitter Penguin flipper lengths
+
+flipper_box <- ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+  geom_boxplot(aes(color = species), width = 0.3, show.legend = FALSE) +
+  geom_jitter(aes(color = species), alpha = 0.5, show.legend = FALSE, position = position_jitter(width = 0.2, seed = 0)) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(x = "Species",
+       y = "Flipper length (mm)",
+       title = "Penguin flipper lengths")
+
+flipper_box
+```
+
+### Histogram: Penguin Body mass
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Histogram Penguin Body mass
+
+
+mass_hist <- ggplot(data = penguins, aes(x = body_mass_g)) +
+  geom_histogram(aes(fill = species), 
+                 alpha = 0.5, 
+                 position = "identity") +
+  scale_fill_manual(values = c("darkorange","purple","cyan4")) +
+  labs(x = "Body mass (g)",
+       y = "Frequency",
+       title = "Penguin body mass")
+
+mass_hist
+```
+
+### Scatterplot: Penguin flipper and body mass by sex
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Scatterplot Penguin flipper and body mass by sex
+
+flipper_length_body_mass <- ggplot(penguins, aes(x = flipper_length_mm,
+                                                 y = body_mass_g)) +
+    geom_point(aes(color = sex)) +
+    scale_color_manual(values = c("darkorange","cyan4"), na.translate = FALSE) +
+    labs(title = "Penguin flipper and body mass",
+         subtitle = "Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+         x = "Flipper length (mm)",
+         y = "Body mass (g)",
+         color = "Penguin sex") +
+    theme(legend.position = "bottom",
+          plot.title.position = "plot",
+          plot.caption = element_text(hjust = 0, face= "italic"),
+          plot.caption.position = "plot") +
+    facet_wrap(~species)
+
+flipper_length_body_mass
+```
+
+## Interactive Visualization 
+
+### Plotly: Scatterplot Penguin flipper and body mass by sex
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Plotly Scatterplot Penguin flipper and body mass by sex
+
+library(plotly)
+library(ggplot2)
+library(palmerpenguins)
+ggplot2::theme_set(ggplot2::theme_minimal())
+
+flipper_length_body_mass <- ggplot(penguins, aes(x = flipper_length_mm,
+                                                 y = body_mass_g)) +
+    geom_point(aes(color = sex)) +
+    scale_color_manual(values = c("darkorange","cyan4"), na.translate = FALSE) +
+    labs(title = "Penguin flipper and body mass",
+         subtitle = "Dimensions for male and female Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER",
+         x = "Flipper length (mm)",
+         y = "Body mass (g)",
+         color = "Penguin sex") +
+    theme(legend.position = "bottom",
+          plot.title.position = "plot",
+          plot.caption = element_text(hjust = 0, face= "italic"),
+          plot.caption.position = "plot") +
+    facet_wrap(~species)
+
+ggplotly(flipper_length_body_mass,
+         tooltip = c("x", "y", "color"))
+```
+
+## Citation
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+citation("palmerpenguins")
+```

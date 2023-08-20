@@ -45,3 +45,6 @@ dependencies:
       # Jupyter
       - jupyter
       - jupyter-cache
+      
+      # Datasets
+      - palmerpenguins

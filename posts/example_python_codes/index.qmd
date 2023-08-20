@@ -1,0 +1,417 @@
+---
+title: "Example of Python codes"
+jupyter: python3
+image: media/featured_image.png
+categories: [python, code, analysis, dataviz, visualization]
+---
+
+Below is an example to illustrate how to include executable code.
+
+**Python Code:**
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+x = 5
+y = 3
+
+print(x + y)
+```
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+
+import pandas as pd
+
+data = {
+  'calories': [420, 380, 390],
+  'duration': [50, 40, 45]
+}
+
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+print(df) 
+```
+
+## Data Visualizations
+
+Generate Example graphs using the penguins data from `palmerpenguins` using `Python`, `Seaborn` and `Matplotlib`
+
+## **About the data**
+
+Data were collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/).
+
+The dataset contain data for **`344 penguins`**. There are **3 different species** of penguins in this dataset, collected from **3 islands** in the [Palmer Archipelago, Antarctica]{.underline}.
+
+## Artwork
+
+You are invited to use this accompanying artwork when you use or teach with palmerpenguins! Please cite with `"Artwork by @allison_horst"`.
+
+### Meet the Palmer penguins
+
+![](media/lter_penguins.png){fig-align="center" width="75%"}
+
+### Bill dimensions
+
+The culmen is the upper ridge of a bird's bill. In the simplified `penguins` data, culmen length and depth are renamed as variables `bill_length_mm` and `bill_depth_mm` to be more intuitive.
+
+For this penguin data, the culmen (bill) length and depth are measured as shown below (thanks `Kristen Gorman` for clarifying!):
+
+![](media/culmen_depth.png){fig-align="center" width="75%"}
+
+## **Installation**
+
+You can install the released version of palmerpenguins from [PyPi](https://pypi.org/) with:
+
+```         
+pip install palmerpenguins
+```
+
+To install the development version from [GitHub](https://github.com/) use:
+
+```         
+pip install git+https://github.com/mcnakhaee/palmerpenguins.git
+```
+
+![](media/palmerpenguins.png){fig-align="center" width="20%"}
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+# To install the released version from PyPi use:
+# pip install pandas
+# pip install seaborn
+# pip install matplotlib
+# pip install palmerpenguins
+# pip install plotly
+
+# To install the development version from GitHub use:
+# pip install git+https://github.com/mcnakhaee/palmerpenguins.git
+
+import pandas as pd
+import numpy as np
+from palmerpenguins import load_penguins
+import seaborn as sns 
+import matplotlib.pyplot as plt
+
+penguins = load_penguins()
+
+sns.set_style('whitegrid')
+```
+
+## Dataset `Penguins` are fun to Summarize and Visualize!
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+df = penguins.groupby(['species'])['island'].count()
+df = pd.DataFrame(df)
+df
+```
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+
+df = penguins.groupby('species').mean(numeric_only=True)
+temp_df_left = df.loc[:, df.columns != 'year'].round(2)
+temp_df_right = df['year'].round()
+
+df = temp_df_left.merge(temp_df_right, left_on = 'species', right_on = 'species')
+df
+```
+
+## Generate Visualizations
+
+### Penguin body mass versus flipper length
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin body mass versus flipper length
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+marker_list = ['o' , 's', '^']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+p = sns.scatterplot(data = df,
+           x = 'flipper_length_mm', 
+           y = 'body_mass_g',
+           hue = 'species', 
+           style = 'species',
+           markers = marker_list
+           )
+
+# Customize the axes and title
+p.set_title('Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins')
+p.set_xlabel('Flipper length (mm)')
+p.set_ylabel('Body mass (g)')
+
+plt.suptitle('Penguin size, Palmer Station LTER')
+plt.show()
+```
+
+### Penguin flipper length versus bill length
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin flipper length versus bill length
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+marker_list = ['o' , 's', '^']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+p = sns.scatterplot(data = df,
+           x = 'flipper_length_mm', 
+           y = 'bill_length_mm',
+           hue = 'species', 
+           style = 'species',
+           markers = marker_list
+           )
+
+# Customize the axes and title
+p.set_title('Dimensions for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER')
+p.set_xlabel('Flipper length (mm)')
+p.set_ylabel('Bill length (mm)')
+
+plt.suptitle('Flipper and bill length')
+plt.show()
+```
+
+### Penguin bill length versus depth
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Penguin bill length versus depth
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+marker_list = ['o' , 's', '^']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+p = sns.lmplot(data = df,
+           x = 'bill_length_mm', 
+           y = 'bill_depth_mm',
+           hue = 'species', 
+           markers = marker_list
+           )
+
+# Customize the axes and title
+plt.title('Penguin bill dimensions')
+plt.xlabel('Bill length (mm)')
+plt.ylabel('Bill depth (mm)')
+
+plt.suptitle('Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER')
+plt.show()
+```
+
+### Histogram: Penguin flipper lengths
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Histogram Penguin flipper lengths
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+sns.histplot(data = df,
+             x = 'flipper_length_mm', 
+             hue = 'species',
+             bins = 30
+             )
+
+plt.title('Penguin flipper lengths')
+plt.xlabel('Flipper length (mm)')
+plt.ylabel('Frequency')
+
+plt.show()
+```
+
+### BoxPlot & Jitter: Penguin flipper lengths
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: BoxPlot & Jitter Penguin flipper lengths
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+# Usual boxplot
+p = sns.boxplot(data = df,
+                x = 'species',
+                y = 'flipper_length_mm', 
+                hue = 'species'
+                )
+p.legend_.remove()
+             
+# Add jitter with the swarmplot function
+p = sns.stripplot(data = df,
+                  x = 'species',
+                  y = 'flipper_length_mm', 
+                  hue = 'species',
+                  marker = 'o',
+                  alpha = 0.5
+                  )
+p.legend_.remove()
+
+plt.title('Penguin flipper lengths')
+plt.xlabel('Species')
+plt.ylabel('Flipper length (mm)')
+
+plt.show()
+```
+
+### Histogram: Penguin Body mass
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Histogram Penguin Body mass
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+sns.histplot(data = df,
+             x = 'body_mass_g', 
+             hue = 'species',
+             bins = 30
+             )
+
+plt.title('Penguin body mass')
+plt.xlabel('Body mass (g)')
+plt.ylabel('Frequency')
+
+plt.show()
+```
+
+### Scatterplot: Penguin flipper and body mass by sex
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: true
+#| label: Scatterplot Penguin flipper and body mass by sex
+
+df = penguins
+
+# Create an array with the colors you want to use
+colors = ['#FF8C00', '#008b8b', '#800080']
+
+marker_list = ['o' , 's', '^']
+
+# Set your custom color palette
+sns.set_palette(sns.color_palette(colors))
+
+p = sns.relplot(data = df,
+           x = 'flipper_length_mm', 
+           y = 'body_mass_g',
+           col = "species",
+           hue = 'sex', 
+           style = 'sex',
+           height = 4, 
+           aspect = 0.7,
+           kind="scatter"
+           )
+
+# Customize the axes and title
+p.set_axis_labels('Flipper length (mm)', 'Body mass (g)')
+plt.show()
+```
+
+## Interactive Visualization
+
+### Plotly: Scatterplot Penguin flipper and body mass by sex
+
+```{python}
+#| echo: true
+#| message: false
+#| warning: false
+#| code-fold: show
+#| label: "Plotly Scatter Plot: Penguins Flipper Length vs Body Mass by Species"
+
+import plotly.express as px
+
+df = penguins
+fig = px.scatter(df, 
+                 x="flipper_length_mm", 
+                 y="body_mass_g", 
+                 color = "sex",
+                 facet_col="species")
+
+fig.show()
+```
+
+## Citation
+
+To cite `palmerpenguins` in publications use:
+
+Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
+
+A BibTeX entry for LaTeX users is
+
+@Manual{,\
+title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data}, author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman}, year = {2020}, note = {R package version 0.1.0}, doi = {10.5281/zenodo.3960218}, url = {https://allisonhorst.github.io/palmerpenguins/}, }
