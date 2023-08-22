@@ -26,6 +26,22 @@ website:
             href: posts/example_r_codes/index.qmd
           - text: Python Analysis
             href: posts/example_python_codes/index.qmd
+      - text: Example Licenses
+        menu: 
+          - text: "CC0 1.0"
+            href: example_licenses/license_cc-zero.qmd
+          - text: "CC BY 4.0"
+            href: example_licenses/license_cc-by.qmd
+          - text: "CC BY-SA 4.0"
+            href: example_licenses/license_cc-by-sa.qmd
+          - text: "CC BY-NC 4.0"
+            href: example_licenses/license_cc-by-nc.qmd
+          - text: "CC BY-NC-SA 4.0"
+            href: example_licenses/license_cc-by-nc-sa.qmd
+          - text: "CC BY-ND 4.0"
+            href: example_licenses/license_cc-by-nd.qmd
+          - text: "CC BY-NC-ND 4.0"
+            href: example_licenses/license_cc-by-nc-nd.qmd
       - text: About
         href: about.qmd
     right:

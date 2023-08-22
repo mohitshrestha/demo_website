@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-zero >}} [CC0 1.0 (Creative Commons 1.0 Universal)](http://creativecommons.org/publicdomain/zero/1.0/)
+[Demo Website](https://mohitshrestha.github.io/demo_website) © {{< var website.copyright_year >}} by [Mohit Shrestha](https://mohitshrestha.com.np/) <br> Licensed under <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="25"/> <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" width="25"/> [CC0 1.0 (Creative Commons 1.0 Universal)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 Licensed under:
 
