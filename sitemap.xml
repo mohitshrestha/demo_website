@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mohitshrestha.github.io/posts/example_python_codes/index.html</loc>
-    <lastmod>2023-08-20T23:47:30.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/posts/example_r_codes/index.html</loc>
-    <lastmod>2023-08-20T23:47:29.271Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/about.html</loc>
-    <lastmod>2023-08-20T23:47:27.431Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-nd.html</loc>
-    <lastmod>2023-08-20T23:47:26.543Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-zero.html</loc>
-    <lastmod>2023-08-20T23:47:25.643Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nd.html</loc>
-    <lastmod>2023-08-20T23:47:24.699Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/dataviz_portfolio.html</loc>
-    <lastmod>2023-08-20T23:47:23.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_codes/example_r_codes.html</loc>
-    <lastmod>2023-08-20T23:47:09.303Z</lastmod>
-  </url>
-  <url>
     <loc>https://mohitshrestha.github.io/posts.html</loc>
-    <lastmod>2023-08-20T23:46:55.147Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/license_cc-by.html</loc>
-    <lastmod>2023-08-20T23:46:52.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/LICENSE.html</loc>
-    <lastmod>2023-08-20T23:46:54.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/index.html</loc>
-    <lastmod>2023-08-20T23:47:01.275Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_codes/example_python_codes.html</loc>
-    <lastmod>2023-08-20T23:47:16.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by.html</loc>
-    <lastmod>2023-08-20T23:47:24.251Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-sa.html</loc>
-    <lastmod>2023-08-20T23:47:25.187Z</lastmod>
+    <lastmod>2023-08-22T21:53:07.928Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc.html</loc>
-    <lastmod>2023-08-20T23:47:26.087Z</lastmod>
+    <lastmod>2023-08-22T21:53:06.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by.html</loc>
+    <lastmod>2023-08-22T21:53:05.608Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-sa.html</loc>
-    <lastmod>2023-08-20T23:47:26.987Z</lastmod>
+    <lastmod>2023-08-22T21:53:04.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-sa.html</loc>
+    <lastmod>2023-08-22T21:53:03.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/license_cc-by.html</loc>
+    <lastmod>2023-08-22T21:53:02.880Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/posts/2023-08-14-post-with-code/index.html</loc>
-    <lastmod>2023-08-20T23:47:28.143Z</lastmod>
+    <lastmod>2023-08-22T21:53:01.836Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/posts/example_r_codes/index.html</loc>
+    <lastmod>2023-08-22T21:52:59.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/index.html</loc>
+    <lastmod>2023-08-22T21:52:58.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_codes/example_python_codes.html</loc>
+    <lastmod>2023-08-22T21:52:44.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_codes/example_r_codes.html</loc>
+    <lastmod>2023-08-22T21:52:35.532Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/dataviz_portfolio.html</loc>
+    <lastmod>2023-08-22T21:52:52.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/posts/example_python_codes/index.html</loc>
+    <lastmod>2023-08-22T21:53:01.028Z</lastmod>
   </url>
   <url>
     <loc>https://mohitshrestha.github.io/posts/2023-08-11-welcome/index.html</loc>
-    <lastmod>2023-08-20T23:47:29.847Z</lastmod>
+    <lastmod>2023-08-22T21:53:02.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/LICENSE.html</loc>
+    <lastmod>2023-08-22T21:53:03.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-zero.html</loc>
+    <lastmod>2023-08-22T21:53:04.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nd.html</loc>
+    <lastmod>2023-08-22T21:53:05.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/example_licenses/license_cc-by-nc-nd.html</loc>
+    <lastmod>2023-08-22T21:53:06.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohitshrestha.github.io/about.html</loc>
+    <lastmod>2023-08-22T21:53:07.004Z</lastmod>
   </url>
 </urlset>
